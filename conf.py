@@ -3,10 +3,12 @@
 # in your Travis CI as environment variables.
 
 options = {
-    "index": "https://www.notion.so/Static-Motion-308b107a54494ef09b6537a251d96b80",
-    "title_sep": "-",
-    "description": "Make your static site from Notion.so.",
-    "twitter": "@chzenan",
-    "base_url": "https://staticmotion.zenan.ch/",
-    "build_mobile": "true"
+    "ACCESS_TOKEN: 123sgrGQL"
+    "SITE_ID: e89e92e1-8bac-429b-87ad-cb4296a4e926"
+    "index: https://www.notion.so/colorfulblack/Notion-1d8dc2f3626e4c97b0441e853d0f9f10"
+    "title_sep: NOTION"
+    "description: Your site description"
+    "base_url: https://fervent-austin-24372e.netlify.com/
+    "twitter:  "
+    "build_mobile: Will build a mobile version of your entire site at /m/ if this option present"
 }
